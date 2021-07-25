@@ -1,14 +1,30 @@
 /* header start */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 .top-banner{
     width: 100%;
-    background: #2D25A0;
+    background-color: #2D25A0;
 }
 .menu{
     color: white;
     display: flex;
-    margin: 5%;
-    gap: 5%;
+    font-size: 15px;
+    flex-direction: row;
+    margin-left: 10%;
+    gap: 2%;
+}
+#login{
+    position: absolute;
+    left: 85%;
+    background: #E02C6D;
+    padding: 3px 15px;
+}
+.top-info{
+    display: flex;
+    color: white;
+}
+.top-info img{
+    width: 550px;
 }
