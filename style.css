@@ -1,0 +1,14 @@
+/* header start */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    width: 100%;
+    background: #2D25A0;
+}
+.menu{
+    color: white;
+    display: flex;
+    margin: 5%;
+    gap: 5%;
+}
