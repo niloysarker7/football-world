@@ -10,25 +10,79 @@ body{
 .menu{
     color: white;
     display: flex;
+    cursor: pointer;
     font-size: 15px;
     flex-direction: row;
     margin-left: 10%;
     gap: 2%;
 }
-#login{
+#login {
     position: absolute;
     left: 85%;
+    color: white;
     background: #E02C6D;
+    cursor: pointer;
     padding: 3px 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(33, 49, 88);
 }
+
 .top-info {
     display: flex;
     align-items: center;
     color: white;
     font-size: 45px;
     margin-left: 10%;
+    overflow: hidden;
 }
 .top-info img{
     width: 600px;
     margin: 10% 85% 5% 15%;
+}
+#img:hover img{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+#watch{
+    font-size: 20px;
+    color: white;
+    background: #E02C6D;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(33, 49, 88);
+}
+
+
+/* main style */
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    margin: 15%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.player img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#schedule{
+    display: flex;
+    align-items: center;
+}
+#schedule-info{
+    margin: 5% 2% 10% 8%;
+}
+#schedule img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 5% 5% 10% 8%;
+    box-shadow: 15px 15px 45px gray;
 }
