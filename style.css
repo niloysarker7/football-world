@@ -161,7 +161,7 @@ body{
     .top-info img{
         width: 300px;
         margin-top: 20%;
-        margin-left: -45%;
+        margin-left: -10%;
         margin-right: 0%;
         margin-bottom: 10%;
     }
@@ -215,3 +215,71 @@ body{
     }
     /* footer end */
 }
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+
+    /* header start */
+    .menu{
+        font-size: 10px;
+    }
+    .top-info {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        padding-bottom: 8%;
+        margin-right: 5%;
+    }
+    .top-info img{
+        width: 300px;
+        margin-left: -5%;
+    }
+    /* header end */
+
+    /* common style */
+    #watch-now{
+        font-size: 12px;
+        padding: 5px 8px;
+        box-shadow: 10px 10px 10px rgb(33, 49, 88);
+    }
+
+    /* main start */
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #schedule{
+        display: flex;
+        flex-direction: column;
+    }
+    #schedule-info{
+        margin: 10%;
+        font-size: 13px;
+    }
+    #schedule img{
+        width: 80%;
+        margin: 5% 5% 20% 0%;
+    }
+    #match{
+        display: none;
+    }
+    /* main end */
+
+    /* footer start */
+    #footer-logo img{
+        width: 30%;
+        padding-left: 35%;
+    }
+    #icons{
+        width: 22px;
+        margin-left: 10%;
+    }
+    .fab{
+        font-size: 15px;
+        width: 25px;
+    }
+    #copyright{
+        font-size: 10px;
+    }
+    /* footer end */
+}    
